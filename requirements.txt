@@ -1,8 +1,15 @@
 Fabric
 Flask-SQLAlchemy
 Flask-WTF
-WTForms==2.3.3
+WTForms
 coverage
 # ecdsa
 # paramiko
 # pycrypto
+beautifulsoup4
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cpu
+transformers
+numpy
+pandas
+gunicorn
