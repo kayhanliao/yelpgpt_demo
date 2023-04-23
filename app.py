@@ -53,7 +53,7 @@ class BasicForm(FlaskForm):
 PATH = 'kayhanliao/yelpGPTv1.1'
 CHECKPOINT = 'facebook/bart-base'
 tokenizer = BartTokenizer.from_pretrained(CHECKPOINT)
-model = BartForConditionalGeneration.from_pretrained(PATH, local_files_only=True)
+model = BartForConditionalGeneration.from_pretrained(PATH)
 
 
 @app.route('/', methods=['POST', 'GET'])
